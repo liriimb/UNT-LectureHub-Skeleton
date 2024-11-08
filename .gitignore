@@ -50,3 +50,82 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Node.js
+/node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+package-lock.json
+yarn.lock
+
+# React build output
+/build/
+public/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+logs/
+
+# VSCode specific files
+.vscode/
+
+# IDE specific files
+.idea/
+*.swp
+
+# MacOS system files
+.DS_Store
+
+# Linux system files
+*~ 
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# PostgreSQL and MySQL database files (adjust for your DB system)
+*.sql
+*.sqlite
+*.db
+
+# Build files
+/dist/
+out/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Cache directories
+/.cache
+/.next
+
+# TypeScript files (if using TypeScript)
+*.tsbuildinfo
+
+# Coverage files (if using Jest, Mocha, etc. for testing)
+coverage/
+
+# Custom node env files
+.env.*
+.env.development
+.env.production
+.env.test
+.env.local
+
+# Other files you may want to ignore based on project setup
+*.tgz
+*.gz
+*.rar
+*.zip
+*.7z
